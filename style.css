@@ -1,0 +1,95 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Intro {
+  background: white;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  text-align: center;
+}
+
+.Hobbies {
+  background: white;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  text-align: center;
+}
+
+.Social {
+  background: white;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h1,
+h2,
+h3 {
+  color: #264653;
+  font-weight: 800;
+}
+
+.stuff {
+  margin: 5px;
+  color: black;
+}
+
+#Profile {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+#Link {
+  text-decoration: none;
+  color: #264653;
+  font-weight: 800;
+  border: 1px solid;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+#Link:hover {
+  background-color: #264653;
+  color: white;
+}
+
+body {
+  font-family: roboto;
+  background-color: whitesmoke;
+  line-height: 20px;
+}
+
+.Social a {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
